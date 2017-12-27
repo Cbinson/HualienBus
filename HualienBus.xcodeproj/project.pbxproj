@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3EC9F598D791501ADCC743BE /* Pods_HualienBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8788223B364A3AF6313C0B8 /* Pods_HualienBus.framework */; };
+		880661470DDC8ADB9D1E283F /* Pods_HualienBus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49414E2171B09E9EE376442E /* Pods_HualienBus.framework */; };
+		CF5C536C1FF23D3F00DD55D9 /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5C536B1FF23D3F00DD55D9 /* HMAC.swift */; };
 		CF68D5291FF08A2C007F096E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68D5281FF08A2C007F096E /* AppDelegate.swift */; };
 		CF68D52B1FF08A2C007F096E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68D52A1FF08A2C007F096E /* ViewController.swift */; };
 		CF68D52E1FF08A2C007F096E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF68D52C1FF08A2C007F096E /* Main.storyboard */; };
 		CF68D5301FF08A2C007F096E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF68D52F1FF08A2C007F096E /* Assets.xcassets */; };
-		CF68D5331FF08A2C007F096E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF68D5311FF08A2C007F096E /* LaunchScreen.storyboard */; };
+		CF68D53B1FF0902B007F096E /* BusRouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68D53A1FF0902B007F096E /* BusRouteModel.swift */; };
+		CF68D53D1FF09070007F096E /* SubsRouteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68D53C1FF09070007F096E /* SubsRouteModel.swift */; };
+		CF68D5401FF09329007F096E /* RouteNameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68D53F1FF09329007F096E /* RouteNameModel.swift */; };
+		CF76FB741FF33EDC00E7E31D /* BusRouteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76FB731FF33EDC00E7E31D /* BusRouteManager.swift */; };
+		CF76FB7C1FF39CAB00E7E31D /* RouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76FB7B1FF39CAB00E7E31D /* RouteCell.swift */; };
+		CF76FB7E1FF39CC000E7E31D /* RouteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF76FB7D1FF39CC000E7E31D /* RouteCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		488E9F21782F4DD9DCBBA65E /* Pods-HualienBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HualienBus.release.xcconfig"; path = "Pods/Target Support Files/Pods-HualienBus/Pods-HualienBus.release.xcconfig"; sourceTree = "<group>"; };
-		4C317C14C0AE8E83E1C9DC72 /* Pods-HualienBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HualienBus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HualienBus/Pods-HualienBus.debug.xcconfig"; sourceTree = "<group>"; };
-		A8788223B364A3AF6313C0B8 /* Pods_HualienBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HualienBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49414E2171B09E9EE376442E /* Pods_HualienBus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HualienBus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2919334D3F60F975567ABC /* Pods-HualienBus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HualienBus.release.xcconfig"; path = "Pods/Target Support Files/Pods-HualienBus/Pods-HualienBus.release.xcconfig"; sourceTree = "<group>"; };
+		CF5C536B1FF23D3F00DD55D9 /* HMAC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
 		CF68D5251FF08A2C007F096E /* HualienBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HualienBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF68D5281FF08A2C007F096E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF68D52A1FF08A2C007F096E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +32,14 @@
 		CF68D52F1FF08A2C007F096E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF68D5321FF08A2C007F096E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF68D5341FF08A2C007F096E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF68D53A1FF0902B007F096E /* BusRouteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRouteModel.swift; sourceTree = "<group>"; };
+		CF68D53C1FF09070007F096E /* SubsRouteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsRouteModel.swift; sourceTree = "<group>"; };
+		CF68D53F1FF09329007F096E /* RouteNameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteNameModel.swift; sourceTree = "<group>"; };
+		CF68D5421FF21648007F096E /* HualienBus-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HualienBus-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF76FB731FF33EDC00E7E31D /* BusRouteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRouteManager.swift; sourceTree = "<group>"; };
+		CF76FB7B1FF39CAB00E7E31D /* RouteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCell.swift; sourceTree = "<group>"; };
+		CF76FB7D1FF39CC000E7E31D /* RouteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RouteCell.xib; sourceTree = "<group>"; };
+		FC830F53A2E226A9F8932432 /* Pods-HualienBus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HualienBus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HualienBus/Pods-HualienBus.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,20 +47,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC9F598D791501ADCC743BE /* Pods_HualienBus.framework in Frameworks */,
+				880661470DDC8ADB9D1E283F /* Pods_HualienBus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A94986C563F3F345E9BF7D80 /* Pods */ = {
+		67D8B14581ED6C2C15414B96 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4C317C14C0AE8E83E1C9DC72 /* Pods-HualienBus.debug.xcconfig */,
-				488E9F21782F4DD9DCBBA65E /* Pods-HualienBus.release.xcconfig */,
+				FC830F53A2E226A9F8932432 /* Pods-HualienBus.debug.xcconfig */,
+				4B2919334D3F60F975567ABC /* Pods-HualienBus.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF5C536D1FF23F3200DD55D9 /* RouteModel */ = {
+			isa = PBXGroup;
+			children = (
+				CF76FB731FF33EDC00E7E31D /* BusRouteManager.swift */,
+				CF68D53A1FF0902B007F096E /* BusRouteModel.swift */,
+				CF68D53C1FF09070007F096E /* SubsRouteModel.swift */,
+				CF68D53F1FF09329007F096E /* RouteNameModel.swift */,
+			);
+			path = RouteModel;
 			sourceTree = "<group>";
 		};
 		CF68D51C1FF08A2C007F096E = {
@@ -54,8 +79,9 @@
 			children = (
 				CF68D5271FF08A2C007F096E /* HualienBus */,
 				CF68D5261FF08A2C007F096E /* Products */,
-				A94986C563F3F345E9BF7D80 /* Pods */,
 				FEE6B7C6AFF0AA9C2DB9CB1F /* Frameworks */,
+				CF68D5421FF21648007F096E /* HualienBus-Bridging-Header.h */,
+				67D8B14581ED6C2C15414B96 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,14 +102,26 @@
 				CF68D52F1FF08A2C007F096E /* Assets.xcassets */,
 				CF68D5311FF08A2C007F096E /* LaunchScreen.storyboard */,
 				CF68D5341FF08A2C007F096E /* Info.plist */,
+				CF76FB7F1FF39CC700E7E31D /* Cell */,
+				CF5C536D1FF23F3200DD55D9 /* RouteModel */,
+				CF5C536B1FF23D3F00DD55D9 /* HMAC.swift */,
 			);
 			path = HualienBus;
+			sourceTree = "<group>";
+		};
+		CF76FB7F1FF39CC700E7E31D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CF76FB7B1FF39CAB00E7E31D /* RouteCell.swift */,
+				CF76FB7D1FF39CC000E7E31D /* RouteCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		FEE6B7C6AFF0AA9C2DB9CB1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A8788223B364A3AF6313C0B8 /* Pods_HualienBus.framework */,
+				49414E2171B09E9EE376442E /* Pods_HualienBus.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,12 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF68D5371FF08A2C007F096E /* Build configuration list for PBXNativeTarget "HualienBus" */;
 			buildPhases = (
-				5DCB03C54578C495166B95F6 /* [CP] Check Pods Manifest.lock */,
+				81B21E4738CCCF6765ED53B8 /* [CP] Check Pods Manifest.lock */,
 				CF68D5211FF08A2C007F096E /* Sources */,
 				CF68D5221FF08A2C007F096E /* Frameworks */,
 				CF68D5231FF08A2C007F096E /* Resources */,
-				414A5D97931661F37BBE0259 /* [CP] Embed Pods Frameworks */,
-				458D00056A12210D38386BC5 /* [CP] Copy Pods Resources */,
+				F0C5D29F82C2F4FA1A93695B /* [CP] Embed Pods Frameworks */,
+				43753A494BD5F103CCC0AF35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +161,7 @@
 				TargetAttributes = {
 					CF68D5241FF08A2C007F096E = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,8 +189,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF68D5331FF08A2C007F096E /* LaunchScreen.storyboard in Resources */,
 				CF68D5301FF08A2C007F096E /* Assets.xcassets in Resources */,
+				CF76FB7E1FF39CC000E7E31D /* RouteCell.xib in Resources */,
 				CF68D52E1FF08A2C007F096E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,27 +198,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		414A5D97931661F37BBE0259 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HualienBus/Pods-HualienBus-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HualienBus/Pods-HualienBus-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		458D00056A12210D38386BC5 /* [CP] Copy Pods Resources */ = {
+		43753A494BD5F103CCC0AF35 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,7 +213,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HualienBus/Pods-HualienBus-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5DCB03C54578C495166B95F6 /* [CP] Check Pods Manifest.lock */ = {
+		81B21E4738CCCF6765ED53B8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,6 +231,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F0C5D29F82C2F4FA1A93695B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HualienBus/Pods-HualienBus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HualienBus/Pods-HualienBus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,8 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF68D5401FF09329007F096E /* RouteNameModel.swift in Sources */,
+				CF76FB7C1FF39CAB00E7E31D /* RouteCell.swift in Sources */,
+				CF68D53D1FF09070007F096E /* SubsRouteModel.swift in Sources */,
+				CF5C536C1FF23D3F00DD55D9 /* HMAC.swift in Sources */,
+				CF68D53B1FF0902B007F096E /* BusRouteModel.swift in Sources */,
 				CF68D52B1FF08A2C007F096E /* ViewController.swift in Sources */,
 				CF68D5291FF08A2C007F096E /* AppDelegate.swift in Sources */,
+				CF76FB741FF33EDC00E7E31D /* BusRouteManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,15 +402,18 @@
 		};
 		CF68D5381FF08A2C007F096E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C317C14C0AE8E83E1C9DC72 /* Pods-HualienBus.debug.xcconfig */;
+			baseConfigurationReference = FC830F53A2E226A9F8932432 /* Pods-HualienBus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TVFFD9C8WQ;
 				INFOPLIST_FILE = HualienBus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = robinson.HualienBus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HualienBus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -371,15 +421,17 @@
 		};
 		CF68D5391FF08A2C007F096E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 488E9F21782F4DD9DCBBA65E /* Pods-HualienBus.release.xcconfig */;
+			baseConfigurationReference = 4B2919334D3F60F975567ABC /* Pods-HualienBus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TVFFD9C8WQ;
 				INFOPLIST_FILE = HualienBus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = robinson.HualienBus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HualienBus-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
